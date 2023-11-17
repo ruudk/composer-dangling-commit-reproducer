@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c64de9f03e2a3f8bfbf30e7e4e1b95a1",
+    "content-hash": "259198c5a570fa6e48ebfd8e9d26168a",
     "packages": [
         {
             "name": "moneyphp/money",
-            "version": "v4.2.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moneyphp/money.git",
-                "reference": "f660ab7f1d7a4c2ffdd30f50c55ed2c95c26fc3f"
+                "reference": "cea5ff8ef5acc86697c63ef80553679ae5c3a36a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moneyphp/money/zipball/f660ab7f1d7a4c2ffdd30f50c55ed2c95c26fc3f",
-                "reference": "f660ab7f1d7a4c2ffdd30f50c55ed2c95c26fc3f",
+                "url": "https://api.github.com/repos/moneyphp/money/zipball/cea5ff8ef5acc86697c63ef80553679ae5c3a36a",
+                "reference": "cea5ff8ef5acc86697c63ef80553679ae5c3a36a",
                 "shasum": ""
             },
             "require": {
@@ -52,6 +52,7 @@
                 "florianv/swap": "Exchange rates library for PHP",
                 "psr/cache-implementation": "Used for Currency caching"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -91,15 +92,17 @@
             ],
             "support": {
                 "issues": "https://github.com/moneyphp/money/issues",
-                "source": "https://github.com/moneyphp/money/tree/v4.2.0"
+                "source": "https://github.com/moneyphp/money/tree/master"
             },
-            "time": "2023-08-16T14:31:24+00:00"
+            "time": "2023-11-10T12:57:37+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "moneyphp/money": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

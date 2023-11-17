@@ -26,3 +26,7 @@ jobs:
 
             -   name: Install dependencies
                 run: composer install --prefer-dist --no-progress --no-suggest
+
+            -   name: Verify that we installed this version
+                run: |
+                    grep 8.3 vendor/moneyphp/money/composer.json

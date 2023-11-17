@@ -1,7 +1,7 @@
 {
     "name": "ruudk/composer-dangling-commit-reproducer",
     "require": {
-        "moneyphp/money": "^4.2"
+        "moneyphp/money": "dev-master#cea5ff8ef5acc86697c63ef80553679ae5c3a36a"
     },
     "license": "MIT",
     "autoload": {
